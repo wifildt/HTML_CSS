@@ -1,0 +1,343 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* Common */
+.overflow{
+    overflow: hidden;
+}
+
+.article-body {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+    padding: 64px 16px 112px;
+}
+
+.input-text {
+    padding: 8px;
+}
+
+.border-round {
+    border: 1px solid #ddd;
+}
+
+.black-bg {
+    color: #fff;
+    background: #000;
+}
+
+.bolder {
+    font-weight: 600;
+}
+
+.content-center {
+    text-align: center;
+}
+
+.content-left {
+    text-align: left;
+}
+
+.justify-content {
+    text-align: justify;
+}
+
+.heading {
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.col-two {
+    width: 50%;
+}
+
+.col {
+    float: left;
+    
+}
+
+.col-three {
+    width: 33.33333%;
+    padding: 0 8px;
+}
+
+.margin-10 {
+    margin: 10px 0;
+}
+
+.common-font{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.common-line-height {
+    line-height: 1.5;    
+}
+
+.margin-15 {
+    margin: 15px 0;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.blurry {
+    opacity: 0.6;
+}
+
+.col-alignment {
+    margin: 0 -8px;
+}
+
+.no-list-style {
+    list-style-type: none;
+}
+
+.uppercase {
+    text-transform: uppercase !important;
+}
+
+.no-decoration {
+    text-decoration: none !important;
+}
+
+.header-line-height {
+    line-height: 46px !important;
+}
+
+.to-right {
+    float: right !important;
+}
+
+.to-left {
+    float: left !important;
+}
+
+.color-75 {
+    color: #757575;
+}
+
+.border-bot {
+    border-bottom: 1px solid #ddd;
+}
+/* header */
+header {
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    background: #000;
+}
+
+.nav li a {
+    color: #fff;
+    display: block;
+    padding: 0px 24px;
+}
+
+.nav li:hover > a {
+    color: #000;
+    background: #ccc;
+}
+
+.nav li:hover > .subNav {
+    display: block;
+}
+
+.subNav {
+    display: none;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.1);
+}
+
+.subNav li a {
+    color: #000;
+}
+
+.search {
+    width: 62px;
+    float: right;
+    color: #fff;
+}
+
+.search:hover {
+    background: #f44336;
+}
+
+/* Slider */
+.slider {
+    top: 0;
+    margin-top: 46px;
+    width: 100%;
+    padding-top: 50%;
+    position: relative;
+    background: url('/assets/ny.jpg') top center / cover no-repeat;
+}
+
+.slide-content {
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding: 32px 16px;
+    text-align: center;;
+    position: absolute;
+}
+
+.slide-content h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.slide-content p {
+    font-size: 15px;
+    margin: 15px 0;
+    font-weight: border;
+    line-height: 1.5;
+}
+
+/* About */
+
+.member img {
+    width: 62.58%;
+    border-radius: 4px;
+}
+
+.member-list {
+    padding: 32px 0px;
+}
+/* tour dates */
+.tour-dates li {
+    padding: 8px 16px;
+    background: #fff;
+    text-align: left;
+}
+
+.tour-dates ul {
+    margin-top: 40px;
+}
+
+.sold-out {
+    color: #fff;
+    padding: 4px 8px;
+    margin-left: 16px;
+    background: #f44336;
+}
+
+.quantity {
+    color: #fff;
+    padding: 0 8px;
+    background: #000;
+    border-radius: 40px;
+}
+
+.tour-dates img {
+    width: 100%;
+    display: block;
+}
+
+.tour-dates img:hover {
+    opacity: 0.6;
+}
+
+.touring-places {
+    padding: 32px 0;
+}
+
+.place-body {
+    color: #000;
+    padding: 15px 16px 25px;
+    background: #fff;
+}
+
+.place-body a {
+    color: #fff;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.place-body a:hover {
+    color: #000;
+    background: #ccc;
+}
+
+/* contact */
+
+.address-font {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.address i {
+    width: 30px;
+}
+
+.form input{
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.form .name, .form .email {
+    padding: 0 8px;
+}
+
+.form .message {
+    margin-top: 10px;
+}
+
+.form .send-btn {
+    margin: 16px 0;
+    padding: 8px 16px;
+}
+
+.send-btn:hover {
+    color: #000;
+    background: #ccc;
+}
+
+.updown32 {
+    padding: 32px 0;
+}
+
+/* Map */
+.map img {
+    width: 100%;
+    filter: grayscale(50%);    
+}
+
+.social-article {
+    padding: 64px 16px;
+}
+
+.social-links > a:hover > i {
+    opacity: 0.5;
+}
+
+.social-links i {
+    color: rgba(0,0,0,0.7);
+    font-size: 24px;
+}
+
+.author {
+    margin: 15px 0;
+}

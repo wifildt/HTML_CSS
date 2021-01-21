@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home-Login</title>
+    <link type="text/css" rel="stylesheet" href="login_style.css?">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div class="login-form">
+        <form action="LoginServlet" method="post">
+            <h1>Login</h1>
+            <div class="login-box">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" name="txtUser" placeholder="UserID" value="">
+            </div>
+            <div class="login-box">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input type="password" name="txtPass" placeholder="Password" value="">
+            </div>
+            <button type="submit" name="action">
+                <i class="fas fa-sign-in-alt" aria-hidden="true"></i>
+            </button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+:root {
+    --item-border-color: rgb(10, 224, 28);
+}
+
+body {
+    background: url(yourname.jpg) no-repeat;
+    background-size: auto;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 110px;
+    padding: 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+    border: 2px solid var(--item-border-color);
+    border-bottom: 2px solid rgb(216, 15, 209);
+}
+
+.login-form:hover, .login-form:focus-within {
+    padding: 30px;
+    width: 260px;
+    border: 1px solid var(--item-border-color);
+    border-bottom: 5px solid rgb(216, 15, 209);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9));
+}
+
+.login-form h1 {
+    font-size: 40px;
+    float: left;
+    transition: 0.5s;
+}
+
+.login-form:hover h1, .login-form:focus-within h1 {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid var(--item-border-color);
+}
+
+.login-form .login-box , .login-form button {
+    display: none;
+}
+
+.login-form:hover .login-box, .login-form:focus-within .login-box {
+    width: 100%;
+    display: inline;
+    float: right;
+    padding: 8px 0;
+    margin: 10px 0;
+    transition: 0.5s;
+}
+
+.login-box input {
+    width: 88%;
+    outline: none;
+    background: none;
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.5s;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--item-border-color);
+}
+
+.login-box i {
+    width: 10%;
+    float: left;
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.login-form:hover button, .login-form:focus-within button{
+    width:  100%;
+    height: 40px;
+    display: inline;
+    outline: none;
+    border: 1.5px solid var(--item-border-color);
+    background: none;
+    margin-top: 10px;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+
+.login-form button:hover, .login-form button:focus-within {
+    background-image: linear-gradient(127deg, rgba(38,204, 112, 1), rgba(38,204, 112, 1));
+}
+
+.login-form button i {
+    color: #fff;
+    font-size: 24px;
+    border: 2px;
+}
